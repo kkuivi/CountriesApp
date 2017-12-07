@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ImageView
+        android:id="@+id/activity_profile_iv_img"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src ="@drawable/ic_account_circle_black_24dp"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/activity_profile_tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/activity_profile_iv_img"
+        android:text="Name"/>
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/activity_profile_tl_tabs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/activity_profile_tv_name"
+        app:tabMode="fixed">
+
+        <android.support.design.widget.TabItem
+            android:id="@+id/activity_profile_tb_education"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Education"/>
+
+        <android.support.design.widget.TabItem
+            android:id="@+id/activity_profile_tb_experience"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Experience"/>
+
+        <android.support.design.widget.TabItem
+            android:id="@+id/activity_profile_tb_Projects"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Projects"/>
+
+    </android.support.design.widget.TabLayout>
+
+    <FrameLayout
+        android:id="@+id/activity_profile_fl_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/activity_profile_tl_tabs"/>
+
+</RelativeLayout>

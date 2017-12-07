@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1034921142093",
+    "firebase_url": "https://midtronics-d0c6a.firebaseio.com",
+    "project_id": "midtronics-d0c6a",
+    "storage_bucket": "midtronics-d0c6a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1034921142093:android:0a49ed0869d868a6",
+        "android_client_info": {
+          "package_name": "com.apps.elikem.midtronics"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1034921142093-jekfb4minpugjqg8pege3r9tn43tv2mb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyALpWjJ0HSaXCbd1i4hwivZTGsfNzXotgA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
